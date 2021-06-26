@@ -10,5 +10,5 @@ class CreateUserController {
     return response.json(user);
   }
 }
-
+// return response.status(400).json({ error: err.message });
 export { CreateUserController };
