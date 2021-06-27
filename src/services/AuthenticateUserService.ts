@@ -2,6 +2,8 @@ import { compare } from 'bcryptjs';
 import { sign } from 'jsonwebtoken';
 import { getCustomRepository } from 'typeorm';
 import { UsersRepositories } from '../repositories/UserRepositories';
+import * as dotenv from 'dotenv';
+dotenv.config();
 
 interface IAuthenticateRequest {
   email: string;
@@ -35,7 +37,7 @@ class AuthenticateUserService {
       {
         email: user.email,
       },
-      '0a01c9962f92bca0a28222f37c5ad8c4',
+      process.env.JWT_SECRET,
       {
         subject: user.id,
         expiresIn: '1d',
