@@ -1,6 +1,6 @@
 ## Valoriza api
 
-Aplicação ensinada e desenvolvida durante o evento NLW 06 (trilha node.js) visando permitir que um usuário cadastre elogios para outros usuários e as liste.
+Aplicação desenvolvida durante o evento NLW 06 (trilha node.js) visando permitir que um usuário cadastre elogios para outros usuários e as liste. Durante o evento foram ensinados pela instrutora conceitos sobre aplicações backend, verbos HTTP, node.js, ORM (Typeorm), relacionamentos em banco de dados, autenticação, e.t.c... de forma teórica e principalmente prática.
 
 ### Techs
 
